@@ -36,6 +36,10 @@ public abstract class JobScheduler
         }
     }
 
+    /**
+     *
+     * @param job
+     */
     public synchronized void onJobComplete(Job job)
     {
         completedJobs++;
